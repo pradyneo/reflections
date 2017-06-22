@@ -1,0 +1,54 @@
+How did viewing a diff between two versions of a file help you see the 
+bug that was introduced?
+
+Because of diff, I had very few lines of code to check for the typo.
+This greatly helps in a situation where there are thousands of lines of 
+code and a lot of changes exists from the previous version.
+
+How could having easy access to the entire history of a file make you a 
+more efficient programmer in the long term?
+
+As a developer, I can keep track of my changes right from the beginning 
+of the file and if required, I can go back to an older version with
+ease.
+
+What do you think are the pros and cons of manually choosing when to 
+create a commit, like you do in Git, vs having versions automatically 
+saved, like Google Docs does?
+
+Pros:
+1. You can save a logical change.
+2. Less and meaningful history.
+
+Cons:
+1. Forgetting a commit might be disastrous.
+
+Why do you think some version control systems, like Git, allow saving 
+multiple files in one commit, while others, like Google Docs, treat 
+each file separately?
+
+Git is a programming oriented version control system. So, it makes a lot
+of sense for saving a snapshot of all the files at a particular point
+of time. On the other hand, Google doc is mainly of for storing files. 
+So, it is logical on their part to store the history of individual 
+files rather than the snapshot of all the files.
+
+How can you use the commands git log and git diff to view the history 
+of files?
+
+git log shows all the commits with the commit message, author, date, 
+commit key. On the other hand, git diff shows the exact difference between two commits.
+
+How might using version control make you more confident to make changes 
+that could break something?
+
+Since version control keeps track of all the commits, I can always 
+revert back to a previous commit and check for the changes thereon. As 
+a developer it instills confidence that I have the full history of all 
+the commits and makes my life easier. 
+
+Now that you have your workspace set up, what do you want to try using 
+Git for?
+
+I want to play with git on a dummy project like a simple dummy website 
+to learn more about it. 
