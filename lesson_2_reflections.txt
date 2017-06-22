@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+It creates a .git repository to store the meta-data of the repository. 
+It implies the starting point of the git version control and initiates 
+all the required files for storing the meta-data.
+
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+
+Staging area differs itself from the working directory and repository 
+from the fact that it is not the physical storage area. It is a logical 
+grouping of related files that can fall under the same commit. It adds 
+value by allowing incremental commits of logic.
