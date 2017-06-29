@@ -11,3 +11,30 @@ Staging area differs itself from the working directory and repository
 from the fact that it is not the physical storage area. It is a logical 
 grouping of related files that can fall under the same commit. It adds 
 value by allowing incremental commits of logic.
+
+How can you use the staging area to make sure you have one commit per 
+logical change?
+
+From the lot of unstaged files, we can add only those files which are 
+logically related to each other and commit them under one commit 
+message.
+
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+
+Situations like 
+1. if I have to work and deliver on a different task without losing my 
+current task.
+2. work on multiple experimental changes.
+
+How do the diagrams help you visualize the branch structure?
+
+It allows me to track changes/commits on the different branches of the 
+working directory.
+
+What is the result of merging two branches together? Why do we 
+represent it in the diagram the way we do?
+
+Combined the changes from both the branches. The diagram shows the 
+merging point as wells as the different commits made on both the 
+branches based on the timestamp.
