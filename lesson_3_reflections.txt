@@ -4,3 +4,34 @@ In most cases, I would like to have a remote repository. The reason for this is 
 1. It serves as a backup of my work that I want to commit.
 2. It would help me collaborate with other developers.
 3. It's a clean way of managing my code.
+
+
+Why might you want to always pull changes manually rather than having 
+Git automatically stay up-to-date with your remote repository?
+
+This gives me more control as to when I want to pull new changes. In 
+most cases, I would like to pull the new code once I have a logical 
+change to commit and wants to make sure that I have the latest code 
+from the repo.
+
+Describe the differences between forks, clones, and branches. When 
+would you use one instead of another?
+
+Forks are cloning someone else's repository to my github account. It is 
+mainly a GitHub concept. I would be using it if I want my own 
+development branch that experiment on without pushing changes to the 
+original repo.
+Clones mean cloning an existing repository. Theoritically, it can be 
+from local to local, local to remote, remote to local or remote to 
+remote. I would be mainly using it to clone a remote repo to my local 
+developent system.
+Branches means to create a development path from an existing commit. It 
+can be merged with any other branch or the same from which it was 
+created. I would be using it if I am working on fix, while also working 
+on some other tasks unrelated with a fix or any similar kind of 
+situation.
+
+What is the benefit of having a copy of the last known state of the 
+remote stored locally?
+Mostly it serves as a checkpoint for tracking the changes even if the 
+remote directory status has changed.

@@ -38,3 +38,13 @@ represent it in the diagram the way we do?
 Combined the changes from both the branches. The diagram shows the 
 merging point as wells as the different commits made on both the 
 branches based on the timestamp.
+
+What are the pros and cons of Git’s automatic merging vs. always doing 
+merges manually?
+
+Pros:
+1. Auto merging reduces the merging effort.
+2. In case of merging conflict, it clearly points out the differences 
+from both the branches as well as the derived code.
+
+Cons:
