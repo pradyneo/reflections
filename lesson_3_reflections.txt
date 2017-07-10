@@ -35,3 +35,18 @@ What is the benefit of having a copy of the last known state of the
 remote stored locally?
 Mostly it serves as a checkpoint for tracking the changes even if the 
 remote directory status has changed.
+
+How would you collaborate without using Git or GitHub? What would be 
+easier, and what would be harder?
+As mentioned earlier, other available versioning systems could have 
+been used to colloborate. But it had some shortcomings which Git took 
+care of and made it a lot easier to collaborate.
+
+When would you want to make changes in a separate branch rather than 
+directly in master? What benefits does each approach have?
+Some exaple scenarios are -
+1) One scenario might be when concurrent development is taking place on 
+the same file/functionality, it would be a good idea to make a 
+different branch. 
+2) While working on an experimental change.
+3) To leave aside the uncompleted work and work on a stable version for bug fixing.
